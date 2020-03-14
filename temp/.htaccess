@@ -1,4 +1,0 @@
-RewriteEngine on 
-RewriteCond %{HTTP_REFERER} !^http://(www\.)?research.garpepi [NC] 
-RewriteCond %{HTTP_REFERER} !^http://(www\.)?research.garpepi.*$ [NC] 
-RewriteRule \.(gif|jpg|png)$ - [F]
