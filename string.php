@@ -20,7 +20,7 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 			  <li class="nav-item">
-				<a class="nav-link" href="/SimpleQRGenerator">Vcard Generator</a>
+				<a class="nav-link" href="/simpleQRGenerator">Vcard Generator</a>
 			  </li>
 			  <li class="nav-item active">
 				<a class="nav-link" href="">String Generator <span class="sr-only">(current)</span></a>
