@@ -1,4 +1,6 @@
 RewriteEngine on 
 RewriteCond %{HTTP_REFERER} !^http://(www\.)?localhost [NC] 
 RewriteCond %{HTTP_REFERER} !^http://(www\.)?localhost.*$ [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?garpepi [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?garpepi.*$ [NC] 
 RewriteRule \.(gif|jpg|png)$ - [F]
