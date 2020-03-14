@@ -1,3 +1,4 @@
+<?php include "phpqrcode-master/qrlib.php";?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -133,7 +134,7 @@
 			</div>
 			<div class="col-6">
 			<?php
-			include "phpqrcode-master/qrlib.php";
+			//include "phpqrcode-master/qrlib.php";
 			if (!empty($_POST))
 			{
 				$name = $_POST['name'];
